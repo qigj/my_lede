@@ -21,7 +21,3 @@
 
 # 修改lan口地址
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
-
-
-# openssh编译问题
-sed -i 's/security-key-builtin/security-key-builtin \\/g' package/feeds/packages/openssh/Makefile
