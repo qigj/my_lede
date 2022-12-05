@@ -15,4 +15,4 @@
 
 
 # openssh编译问题
-sed -i 's/security-key-builtin/security-key-builtin \\/g' package/feeds/packages/openssh/Makefile
+# sed -i 's/security-key-builtin/security-key-builtin \\/g' package/feeds/packages/openssh/Makefile
